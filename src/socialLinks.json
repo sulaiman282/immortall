@@ -1,0 +1,20 @@
+{
+  "socialLinks": [
+    {
+      "name": "X Community",
+      "url": "https://x.com/i/communities/1964459218054107428",
+      "icon": "/x-icon.png"
+    },
+    {
+      "name": "TikTok",
+      "url": "https://vt.tiktok.com/ZSAEqHFLp/",
+      "icon": "/tiktok.png"
+    }
+  ],
+  "contractAddress": "6MAqiKZGM7pekNqyArutK5nqdrx91bY4TPg71SMpump",
+  "buyButtonUrl": "https://pump.fun/coin/6MAqiKZGM7pekNqyArutK5nqdrx91bY4TPg71SMpump",
+  "ticker": "$HOODOUT",
+  "name": "MAMA, WE MADE IT!",
+  "domain": "hoodout.xyz",
+  "musicUrl": "https://www.youtube.com/watch?v=o7jsf2PeYB8"
+}
