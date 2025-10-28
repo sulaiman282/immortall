@@ -2,7 +2,7 @@
  * Utility functions for localStorage-based caching
  */
 
-const CACHE_PREFIX = 'hoodout_';
+const CACHE_PREFIX = 'immortal_';
 const DEFAULT_EXPIRY = 24 * 60 * 60 * 1000; // 24 hours in milliseconds
 
 /**
@@ -65,7 +65,7 @@ export const clearCache = (key) => {
 };
 
 /**
- * Clear all HOODOUT cache items
+ * Clear all Immortal Coin cache items
  */
 export const clearAllCache = () => {
   if (typeof window === 'undefined') return;

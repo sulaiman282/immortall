@@ -5,22 +5,22 @@ const Footer = () => {
   const currentYear = new Date().getFullYear();
   
   return (
-    <footer className="w-full py-8 bg-gradient-to-r from-black via-purple-900/20 to-black border-t border-purple-500/30 text-purple-100">
+    <footer className="w-full py-8 bg-gradient-to-r from-black via-gray-900 to-black border-t border-gray-700 text-gray-300">
       <div className="container mx-auto px-4">
         <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
           
           {/* Left: Brand and Copyright */}
           <div className="text-center md:text-left">
             <div className="flex items-center justify-center md:justify-start space-x-2 mb-2">
-              <div className="w-8 h-8 bg-gradient-to-r from-purple-600 to-purple-700 rounded-full flex items-center justify-center">
-                <span className="text-white font-bold text-sm">M</span>
+              <div className="w-8 h-8 bg-gradient-to-r from-gray-700 to-gray-900 rounded-full flex items-center justify-center border border-gray-600">
+                <span className="text-white font-bold text-sm font-roboto-mono">M</span>
               </div>
-              <span className="text-xl font-bold text-purple-400 font-bangers">{socialLinksData.name}</span>
+              <span className="text-xl font-bold text-gray-300 font-bangers font-roboto-mono">{socialLinksData.name}</span>
             </div>
-            <p className="text-sm text-purple-300">
+            <p className="text-sm text-gray-400 font-roboto-mono">
               &copy; {currentYear} {socialLinksData.name}. All rights reserved.
             </p>
-            <p className="text-xs text-purple-400 mt-1">
+            <p className="text-xs text-gray-500 mt-1 font-roboto-mono">
               Domain: {socialLinksData.domain}
             </p>
           </div>
@@ -28,24 +28,24 @@ const Footer = () => {
           {/* Center: Quick Links */}
           <div className="flex flex-col items-center space-y-2">
             <div className="flex space-x-6">
-              <a href="#home" className="text-sm text-purple-300 hover:text-purple-100 transition-colors">
+              <a href="#home" className="text-sm text-gray-400 hover:text-white transition-colors font-roboto-mono">
                 Home
               </a>
-              <a href="#about" className="text-sm text-purple-300 hover:text-purple-100 transition-colors">
+              <a href="#about" className="text-sm text-gray-400 hover:text-white transition-colors font-roboto-mono">
                 About
               </a>
-              <a href="#community" className="text-sm text-purple-300 hover:text-purple-100 transition-colors">
+              <a href="#community" className="text-sm text-gray-400 hover:text-white transition-colors font-roboto-mono">
                 Community
               </a>
             </div>
-            <div className="text-xs text-purple-400">
+            <div className="text-xs text-gray-500 font-roboto-mono">
               CA: {socialLinksData.contractAddress.slice(0, 8)}...{socialLinksData.contractAddress.slice(-8)}
             </div>
           </div>
 
           {/* Right: Social Links */}
           <div className="flex flex-col items-center md:items-end space-y-2">
-            <div className="text-sm text-purple-300 mb-2">Follow Us</div>
+            <div className="text-sm text-gray-400 mb-2 font-roboto-mono">Follow Us</div>
             <div className="flex space-x-3">
               {socialLinksData.socialLinks.map((link) => (
                 <a
@@ -53,14 +53,14 @@ const Footer = () => {
                   href={link.url}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="inline-flex items-center justify-center w-8 h-8 rounded-full bg-purple-600/20 border border-purple-500/30 text-purple-300 hover:text-purple-100 hover:bg-purple-600/40 hover:border-purple-400/50 transition-all duration-300 transform hover:scale-110"
+                  className="inline-flex items-center justify-center w-8 h-8 rounded-full bg-gray-800 border border-gray-700 text-gray-400 hover:text-white hover:bg-gray-700 hover:border-gray-600 transition-all duration-300 transform hover:scale-110 font-roboto-mono"
                   aria-label={link.name}
                 >
                   {link.icon ? (
                     <img
                       src={link.icon}
                       alt={`${link.name} icon`}
-                      className="w-4 h-4 object-cover object-center rounded-full filter brightness-0 invert"
+                      className="w-4 h-4 object-cover object-center rounded-full"
                     />
                   ) : (
                     <svg
@@ -78,8 +78,8 @@ const Footer = () => {
         </div>
 
         {/* Bottom Section */}
-        <div className="border-t border-purple-500/20 mt-6 pt-6 text-center">
-          <p className="text-xs text-purple-400">
+        <div className="border-t border-gray-700 mt-6 pt-6 text-center">
+          <p className="text-xs text-gray-500 font-roboto-mono">
             Built with 💜 by the community, for the community. 
             <span className="block md:inline md:ml-2">MAMA, WE MADE IT! 🚀</span>
           </p>

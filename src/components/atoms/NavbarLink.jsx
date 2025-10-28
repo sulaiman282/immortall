@@ -16,10 +16,10 @@ const NavbarLink = ({ href, children, isActive, onClick }) => {
     <a
       href={href}
       onClick={handleClick}
-      className={`px-4 py-2 rounded-full text-sm font-medium transition-all duration-300 transform hover:scale-105 ${
+      className={`px-4 py-2 rounded-full text-sm font-medium transition-all duration-300 transform hover:scale-105 font-roboto-mono ${
         isActive
-          ? 'bg-purple-600 text-white shadow-lg shadow-purple-500/50'
-          : 'text-purple-300 hover:text-purple-100 hover:bg-purple-800/30'
+          ? 'bg-gray-700 text-white shadow-lg shadow-gray-500/50'
+          : 'text-gray-400 hover:text-white hover:bg-gray-800/30'
       }`}
     >
       {children}

@@ -6,7 +6,7 @@ const SocialIcon = ({ href, icon, name, className = "" }) => {
       href={href}
       target="_blank"
       rel="noopener noreferrer"
-      className={`inline-flex items-center justify-center w-10 h-10 rounded-full bg-emerald-100 border border-emerald-200 text-emerald-600 hover:text-emerald-700 hover:bg-emerald-200 hover:border-emerald-300 transition-all duration-300 transform hover:scale-110 hover:shadow-lg hover:shadow-emerald-500/20 ${className}`}
+      className={`inline-flex items-center justify-center w-10 h-10 rounded-full bg-gray-800 border border-gray-700 text-gray-300 hover:text-white hover:bg-gray-700 hover:border-gray-600 transition-all duration-300 transform hover:scale-110 hover:shadow-lg hover:shadow-gray-500/20 font-roboto-mono ${className}`}
       aria-label={name}
     >
       {icon ? (

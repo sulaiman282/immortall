@@ -2,19 +2,16 @@
   "socialLinks": [
     {
       "name": "X Community",
-      "url": "https://x.com/i/communities/1964459218054107428",
+      "url": "https://x.com/i/communities/1983227945897300032",
       "icon": "/x-icon.png"
-    },
-    {
-      "name": "TikTok",
-      "url": "https://vt.tiktok.com/ZSAEqHFLp/",
-      "icon": "/tiktok.png"
     }
   ],
-  "contractAddress": "6MAqiKZGM7pekNqyArutK5nqdrx91bY4TPg71SMpump",
-  "buyButtonUrl": "https://pump.fun/coin/6MAqiKZGM7pekNqyArutK5nqdrx91bY4TPg71SMpump",
-  "ticker": "$HOODOUT",
-  "name": "MAMA, WE MADE IT!",
-  "domain": "hoodout.xyz",
-  "musicUrl": "https://www.youtube.com/watch?v=o7jsf2PeYB8"
+  "contractAddress": "HYxqZTW9x9KsoV21bUHtV7tMnAguKubedZxHQL2epump",
+  "buyButtonUrl": "https://pump.fun/coin/HYxqZTW9x9KsoV21bUHtV7tMnAguKubedZxHQL2epump",
+  "dexUrl": "https://dexscreener.com/solana/a1t5815fza1rspnhgsfaqd5tpmzchams7bo8lbutipya",
+  "ticker": "Immortal",
+  "name": "Immortal Coin",
+  "domain": "www.immortalcoinsol.com",
+  "musicUrl": "https://www.youtube.com/watch?v=hvqc8lPmCfU",
+  "description": "Forever alive. Forever strong. The Immortal Coin."
 }

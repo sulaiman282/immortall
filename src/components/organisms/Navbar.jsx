@@ -68,15 +68,15 @@ const Navbar = () => {
 
   return (
     <header className="fixed top-0 w-full flex justify-center py-4 z-50 bg-transparent">
-      <div className="relative flex items-center justify-between bg-black/20 backdrop-blur-md border border-purple-500/30 rounded-full px-6 py-1.5 shadow-lg shadow-purple-500/20 min-w-[90vw] lg:min-w-[1000px] mx-4">
+      <div className="relative flex items-center justify-between bg-black/40 backdrop-blur-md border border-gray-700 rounded-full px-6 py-1.5 shadow-lg shadow-gray-900/20 min-w-[90vw] lg:min-w-[1000px] mx-4">
         {/* Desktop Navbar */}
         <div className="hidden lg:flex items-center justify-between w-full">
           {/* Left: Logo and Title */}
           <div className="flex items-center space-x-2">
-            <div className="w-8 h-8 bg-gradient-to-r from-purple-600 to-purple-700 rounded-full flex items-center justify-center">
-              <span className="text-white font-bold text-sm">M</span>
+            <div className="w-8 h-8 bg-gradient-to-r from-gray-700 to-gray-900 rounded-full flex items-center justify-center border border-gray-600">
+              <span className="text-white font-bold text-sm font-roboto-mono">M</span>
             </div>
-            <span className="text-xl font-bold text-purple-400 font-bangers">{socialLinksData.name}</span>
+            <span className="text-xl font-bold text-gray-300 font-bangers font-roboto-mono">{socialLinksData.name}</span>
           </div>
 
           {/* Center: Navbar Menu and Buy Button */}
@@ -94,10 +94,10 @@ const Navbar = () => {
         {/* Mobile Navbar - Hamburger Icon */}
         <div className="lg:hidden flex items-center justify-between w-full">
           <div className="flex items-center space-x-2">
-            <div className="w-8 h-8 bg-gradient-to-r from-purple-600 to-purple-700 rounded-full flex items-center justify-center">
-              <span className="text-white font-bold text-sm">M</span>
+            <div className="w-8 h-8 bg-gradient-to-r from-gray-700 to-gray-900 rounded-full flex items-center justify-center border border-gray-600">
+              <span className="text-white font-bold text-sm font-roboto-mono">M</span>
             </div>
-            <span className="text-lg font-bold text-purple-400 font-bangers">MAMA</span>
+            <span className="text-lg font-bold text-gray-300 font-bangers font-roboto-mono">MAMA</span>
           </div>
           <div className="flex items-center space-x-3">
             <BuyButton />

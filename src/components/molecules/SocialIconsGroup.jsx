@@ -10,7 +10,7 @@ const SocialIconsGroup = ({ className = "" }) => {
   }
 
   return (
-    <div className={`flex items-center space-x-3 ${className}`}>
+    <div className={`flex items-center space-x-3 font-roboto-mono ${className}`}>
       {socialLinks.map((link) => (
         <SocialIcon
           key={link.name}

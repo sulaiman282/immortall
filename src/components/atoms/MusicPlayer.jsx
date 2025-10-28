@@ -72,7 +72,7 @@ const MusicPlayer = () => {
   };
   
   return (
-    <div className="fixed bottom-4 right-4 z-50">
+    <div className="fixed bottom-4 right-4 z-50 font-roboto-mono">
       <audio 
         ref={audioRef} 
         src="/music.mp3" 
@@ -80,7 +80,7 @@ const MusicPlayer = () => {
       />
       <button 
         onClick={togglePlay}
-        className="bg-gradient-to-r from-emerald-500 to-teal-600 hover:from-emerald-600 hover:to-teal-700 text-white rounded-full w-12 h-12 flex items-center justify-center shadow-lg transition-all duration-300 hover:scale-110 hover:shadow-emerald-500/50"
+        className="bg-gradient-to-r from-gray-700 to-gray-900 hover:from-gray-800 hover:to-black text-white rounded-full w-12 h-12 flex items-center justify-center shadow-lg transition-all duration-300 hover:scale-110 hover:shadow-gray-500/50 font-roboto-mono border border-gray-600"
         aria-label={isPlaying ? 'Pause music' : 'Play music'}
       >
         {isPlaying ? (

@@ -8,7 +8,7 @@ const BuyButton = ({ children, className }) => {
       href={buyButtonUrl}
       target="_blank"
       rel="noopener noreferrer"
-      className={`px-4 py-2 text-sm font-bold rounded-full bg-gradient-to-r from-purple-600 to-purple-700 text-white hover:from-purple-700 hover:to-purple-800 transition-all duration-300 transform hover:scale-105 flex items-center space-x-2 shadow-lg hover:shadow-purple-500/50 ${className}`}
+      className={`px-4 py-2 text-sm font-bold rounded-full bg-gradient-to-r from-gray-700 to-gray-900 text-white hover:from-gray-800 hover:to-black transition-all duration-300 transform hover:scale-105 flex items-center space-x-2 shadow-lg hover:shadow-gray-500/50 font-roboto-mono border border-gray-600 ${className}`}
     >
       <svg 
         className="w-4 h-4" 

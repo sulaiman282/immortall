@@ -9,7 +9,7 @@ const NavbarMenu = ({ activeSection }) => {
   ];
 
   return (
-    <nav className="flex items-center space-x-2">
+    <nav className="flex items-center space-x-2 font-roboto-mono">
       {menuItems.map((item) => (
         <NavbarLink
           key={item.id}
